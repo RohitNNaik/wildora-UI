@@ -1,0 +1,28 @@
+{
+  "name": "wildora",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  },
+  "dependencies": {
+    "expo": "~48.0.21",
+    "expo-image-picker": "~14.1.1",
+    "react": "18.2.0",
+    "react-native": "0.71.14",
+    "expo-firebase-recaptcha": "~3.0.0",
+    "firebase": "^10.11.0",
+    "axios": "^1.4.0",
+    "@react-navigation/native": "^6.1.6",
+    "@react-navigation/native-stack": "^6.9.12",
+    "react-native-safe-area-context": "^4.5.0",
+    "react-native-screens": "~3.20.0",
+    "expo-splash-screen": "~0.18.2",
+    "expo-status-bar": "~1.4.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  }
+}
